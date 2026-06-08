@@ -1,7 +1,100 @@
-<!DOCTYPE html>
-<html>
-<body>
-  <h1>Welcome to my Personal Page</h1>
-  <p>Hosted on GitHub Pages!</p>
-</body>
-</html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="A simple personal website with selected work, resume, and contact information."
+    >
+    <title>Your Name | Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+
+    <header class="site-header">
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="brand" href="#top" aria-label="Your Name home">Your Name</a>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top" aria-labelledby="intro-title">
+        <div class="hero-copy">
+          <p class="eyebrow">Personal website</p>
+          <h1 id="intro-title">Hi, I am Your Name.</h1>
+          <p class="lead">
+            I work on thoughtful, reliable projects that connect design,
+            technology, and clear communication.
+          </p>
+          <div class="actions" aria-label="Primary actions">
+            <a class="button primary" href="#work">View work</a>
+            <a class="button secondary" href="assets/cv.pdf">Download CV</a>
+          </div>
+        </div>
+
+        <figure class="profile-card">
+          <img
+            src="assets/profile.jpg"
+            alt="Portrait of Your Name"
+            width="520"
+            height="520"
+            onerror="this.onerror=null;this.src='assets/profile.png';"
+          >
+        </figure>
+      </section>
+
+      <section class="section" id="about" aria-labelledby="about-title">
+        <p class="section-kicker">About</p>
+        <h2 id="about-title">Focused on useful, well-made work.</h2>
+        <p>
+          I enjoy shaping ideas into clear digital experiences, writing
+          maintainable systems, and collaborating with people who care about
+          the details. This site is a compact place for my background, selected
+          work, and ways to get in touch.
+        </p>
+      </section>
+
+      <section class="section" id="work" aria-labelledby="work-title">
+        <p class="section-kicker">Selected work</p>
+        <h2 id="work-title">Projects</h2>
+        <div class="project-grid">
+          <article class="project">
+            <h3>Project One</h3>
+            <p>
+              A concise description of a project, your role, and the outcome or
+              impact it created.
+            </p>
+          </article>
+          <article class="project">
+            <h3>Project Two</h3>
+            <p>
+              A short summary of another piece of work, including the tools,
+              team, or problem space.
+            </p>
+          </article>
+          <article class="project">
+            <h3>Project Three</h3>
+            <p>
+              A snapshot of something you built, researched, designed, taught,
+              or launched.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section split" id="resume" aria-labelledby="resume-title">
+        <div>
+          <p class="section-kicker">CV</p>
+          <h2 id="resume-title">Resume</h2>
+          <p>
+            Download my CV for a fuller look at my experience, education, and
+            recent work.
+          </p>
