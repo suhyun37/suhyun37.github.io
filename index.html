@@ -15,12 +15,17 @@
 
     <header class="site-header">
       <nav class="nav" aria-label="Primary navigation">
-        <a class="brand" href="#top" aria-label="Your Name home">Your Name</a>
+        <a class="brand" href="#top" aria-label="Your Name home">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <span>Your Name</span>
+        </a>
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
           <li><a href="#work">Work</a></li>
           <li><a href="#resume">Resume</a></li>
+          <li><a href="#courses">Courses</a></li>
           <li><a href="#contact">Contact</a></li>
+          <li><a href="#ai-usage">AI Usage</a></li>
         </ul>
       </nav>
     </header>
@@ -36,7 +41,7 @@
           </p>
           <div class="actions" aria-label="Primary actions">
             <a class="button primary" href="#work">View work</a>
-            <a class="button secondary" href="assets/cv.pdf">Download CV</a>
+            <a class="button secondary dark" href="assets/cv.pdf">Download CV</a>
           </div>
         </div>
 
@@ -67,6 +72,7 @@
         <h2 id="work-title">Projects</h2>
         <div class="project-grid">
           <article class="project">
+            <p class="tag">Course</p>
             <h3>Project One</h3>
             <p>
               A concise description of a project, your role, and the outcome or
@@ -74,6 +80,7 @@
             </p>
           </article>
           <article class="project">
+            <p class="tag">Activity</p>
             <h3>Project Two</h3>
             <p>
               A short summary of another piece of work, including the tools,
@@ -81,6 +88,7 @@
             </p>
           </article>
           <article class="project">
+            <p class="tag">Personal</p>
             <h3>Project Three</h3>
             <p>
               A snapshot of something you built, researched, designed, taught,
@@ -98,3 +106,85 @@
             Download my CV for a fuller look at my experience, education, and
             recent work.
           </p>
+          <a class="button secondary" href="assets/cv.pdf">Open CV PDF</a>
+        </div>
+
+        <dl class="resume-list">
+          <div>
+            <dt>Education</dt>
+            <dd>Seoul National University</dd>
+          </div>
+          <div>
+            <dt>Skills</dt>
+            <dd>C++, Python, JavaScript, HTML, CSS</dd>
+          </div>
+          <div>
+            <dt>Experience</dt>
+            <dd>Course projects, web development practice, and collaboration.</dd>
+          </div>
+        </dl>
+      </section>
+
+      <section class="section" id="courses" aria-labelledby="courses-title">
+        <p class="section-kicker">Planned courses</p>
+        <h2 id="courses-title">Courses I plan to take.</h2>
+        <ul class="course-list">
+          <li>Operating Systems</li>
+          <li>Machine Learning</li>
+          <li>Software Engineering</li>
+        </ul>
+      </section>
+
+      <section class="section split" id="contact" aria-labelledby="contact-title">
+        <div>
+          <p class="section-kicker">Contact</p>
+          <h2 id="contact-title">Let us connect.</h2>
+          <p>
+            I am open to conversations about projects, coursework, and
+            collaboration.
+          </p>
+        </div>
+
+        <ul class="contact-list">
+          <li>
+            <span>Email</span>
+            <a href="mailto:your@snu.ac.kr">your@snu.ac.kr</a>
+          </li>
+          <li>
+            <span>GitHub</span>
+            <a href="https://github.com/your-github-username">github.com/your-github-username</a>
+          </li>
+          <li>
+            <span>LinkedIn</span>
+            <a href="https://www.linkedin.com/">linkedin.com/in/your-profile</a>
+          </li>
+        </ul>
+      </section>
+
+      <section class="section ai-usage" id="ai-usage" aria-labelledby="ai-title">
+        <p class="section-kicker">AI Usage</p>
+        <h2 id="ai-title">Tool and prompt used.</h2>
+        <div class="project-grid two">
+          <article class="project">
+            <p class="tag">Tool</p>
+            <h3>Codex</h3>
+            <p>Used to apply the uploaded design file to this personal website.</p>
+          </article>
+          <article class="project">
+            <p class="tag">Prompt</p>
+            <h3>Design update</h3>
+            <p>
+              “I've uploaded DESIGN.md in this repo. Read this file and make
+              the webpage follow this theme.”
+            </p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Your Name</p>
+      <p>Personal website built with HTML and CSS.</p>
+    </footer>
+  </body>
+</html>
