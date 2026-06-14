@@ -67,8 +67,8 @@ a {
   position: sticky;
   top: 0;
   z-index: 20;
-  background: var(--surface-dark);
-  border-bottom: 1px solid var(--hairline-strong);
+  background: var(--canvas);
+  border-bottom: 1px solid var(--hairline);
 }
 
 .nav {
@@ -83,7 +83,7 @@ a {
 
 .brand,
 .nav-links a {
-  color: var(--on-dark);
+  color: var(--ink);
   text-decoration: none;
 }
 
@@ -133,8 +133,8 @@ a {
   grid-template-columns: minmax(0, 1fr) minmax(280px, 440px);
   align-items: center;
   gap: 48px;
-  background: var(--surface-dark);
-  color: var(--on-dark);
+  background: var(--canvas);
+  color: var(--body);
 }
 
 .hero-copy {
@@ -153,7 +153,7 @@ a {
 }
 
 .hero .eyebrow {
-  color: var(--ash);
+  color: var(--mute);
 }
 
 h1,
@@ -165,7 +165,7 @@ p {
 
 h1 {
   margin-bottom: 24px;
-  color: var(--on-dark);
+  color: var(--ink);
   font-size: 48px;
   font-weight: 700;
   line-height: 1.25;
@@ -173,7 +173,7 @@ h1 {
 
 .lead {
   margin-bottom: 0;
-  color: var(--on-dark-muted);
+  color: var(--body);
   font-size: 22px;
   line-height: 1.75;
 }
@@ -213,17 +213,17 @@ h1 {
 }
 
 .button.secondary.dark {
-  border-color: var(--on-dark);
-  color: var(--on-dark);
+  border-color: var(--primary);
+  color: var(--ink);
 }
 
 .profile-card {
   position: relative;
   margin: 0;
   padding: 24px;
-  border: 1px solid var(--hairline-strong);
+  border: 1px solid var(--hairline);
   border-radius: var(--radius);
-  background: var(--surface-elevated);
+  background: var(--canvas);
 }
 
 .profile-card::before,
@@ -242,7 +242,7 @@ h1 {
 .profile-card img {
   width: 100%;
   aspect-ratio: 1;
-  border: 1px solid var(--hairline-strong);
+  border: 1px solid var(--hairline);
   border-radius: var(--radius);
   object-fit: cover;
 }
@@ -258,7 +258,7 @@ h1 {
   max-width: none;
   padding-left: max(24px, calc((100vw - var(--container)) / 2));
   padding-right: max(24px, calc((100vw - var(--container)) / 2));
-  background: var(--surface-soft);
+  background: var(--canvas);
 }
 
 .section > p,
@@ -383,31 +383,31 @@ h3 {
 }
 
 section.section.ai-usage {
-  background: var(--surface-dark);
-  color: var(--on-dark);
+  background: var(--canvas);
+  color: var(--body);
 }
 
 .ai-usage h2,
 .ai-usage h3 {
-  color: var(--on-dark);
+  color: var(--ink);
 }
 
 .ai-usage .section-kicker {
-  color: var(--ash);
+  color: var(--mute);
 }
 
 .ai-usage .project {
-  border-color: var(--hairline-strong);
-  background: var(--surface-elevated);
+  border-color: var(--hairline);
+  background: var(--canvas);
 }
 
 .ai-usage .project p {
-  color: var(--on-dark-muted);
+  color: var(--body);
 }
 
 .ai-usage .tag {
-  background: var(--surface-dark);
-  color: var(--on-dark);
+  background: var(--surface-soft);
+  color: var(--body);
 }
 
 .site-footer {
@@ -415,9 +415,9 @@ section.section.ai-usage {
   display: flex;
   justify-content: space-between;
   gap: 24px;
-  border-top: 1px solid var(--hairline-strong);
-  background: var(--surface-dark);
-  color: var(--on-dark-muted);
+  border-top: 1px solid var(--hairline);
+  background: var(--canvas);
+  color: var(--body);
 }
 
 .site-footer p {
@@ -425,7 +425,7 @@ section.section.ai-usage {
 }
 
 .site-footer p:first-child {
-  color: var(--on-dark);
+  color: var(--ink);
   font-weight: 700;
 }
 
