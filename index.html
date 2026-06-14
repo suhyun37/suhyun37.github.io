@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta
       name="description"
-      content="A simple personal website with selected work, resume, and contact information."
+      content="Personal website for Suhyun Choi, featuring research, projects, resume, and contact information."
     >
-    <title>Your Name | Personal Website</title>
+    <title>Suhyun Choi | Personal Website</title>
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
@@ -15,9 +15,9 @@
 
     <header class="site-header">
       <nav class="nav" aria-label="Primary navigation">
-        <a class="brand" href="#top" aria-label="Your Name home">
+        <a class="brand" href="#top" aria-label="Suhyun Choi home">
           <span class="brand-mark" aria-hidden="true"></span>
-          <span>Your Name</span>
+          <span>Suhyun Choi</span>
         </a>
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
@@ -34,10 +34,11 @@
       <section class="hero" id="top" aria-labelledby="intro-title">
         <div class="hero-copy">
           <p class="eyebrow">Personal website</p>
-          <h1 id="intro-title">Hi, I am Your Name.</h1>
+          <h1 id="intro-title">Hi, I am Suhyun Choi.</h1>
           <p class="lead">
-            I work on thoughtful, reliable projects that connect design,
-            technology, and clear communication.
+            I study biosystem engineering and AI system semiconductor
+            engineering, with interests in agricultural AI, representation
+            learning, embedded systems, and robotics.
           </p>
           <div class="actions" aria-label="Primary actions">
             <a class="button primary" href="#work">View work</a>
@@ -48,9 +49,9 @@
         <figure class="profile-card">
           <img
             src="assets/profile.jpg"
-            alt="Portrait of Your Name"
-            width="520"
-            height="520"
+            alt="Portrait of Suhyun Choi"
+            width="360"
+            height="360"
             onerror="this.onerror=null;this.src='assets/profile.png';"
           >
         </figure>
@@ -58,41 +59,50 @@
 
       <section class="section" id="about" aria-labelledby="about-title">
         <p class="section-kicker">About</p>
-        <h2 id="about-title">Focused on useful, well-made work.</h2>
+        <h2 id="about-title">Connecting biosystems, AI, and engineering practice.</h2>
         <p>
-          I enjoy shaping ideas into clear digital experiences, writing
-          maintainable systems, and collaborating with people who care about
-          the details. This site is a compact place for my background, selected
-          work, and ways to get in touch.
+          I am an undergraduate student at Seoul National University majoring
+          in Biosystem Engineering, with an interdisciplinary major in System
+          Semiconductor Engineering for AI. I am interested in applying machine
+          learning, embedded systems, and robotics to real-world agricultural
+          and biological problems.
         </p>
       </section>
 
       <section class="section" id="work" aria-labelledby="work-title">
         <p class="section-kicker">Selected work</p>
-        <h2 id="work-title">Projects</h2>
+        <h2 id="work-title">Projects and research</h2>
         <div class="project-grid">
           <article class="project">
-            <p class="tag">Course</p>
-            <h3>Project One</h3>
+            <p class="tag">Research</p>
+            <h3>Plant Leaf Disease Feature Disentanglement</h3>
             <p>
-              A concise description of a project, your role, and the outcome or
-              impact it created.
+              Representation learning project focused on separating meaningful
+              visual features for plant leaf disease analysis.
             </p>
           </article>
           <article class="project">
-            <p class="tag">Activity</p>
-            <h3>Project Two</h3>
+            <p class="tag">AI</p>
+            <h3>LLM Memory</h3>
             <p>
-              A short summary of another piece of work, including the tools,
-              team, or problem space.
+              Explored memory-related ideas for large language models and how
+              stored context can support more useful AI systems.
             </p>
           </article>
           <article class="project">
-            <p class="tag">Personal</p>
-            <h3>Project Three</h3>
+            <p class="tag">Robotics</p>
+            <h3>Small-Scale Smart Farm System</h3>
             <p>
-              A snapshot of something you built, researched, designed, taught,
-              or launched.
+              Designed an AI-based irrigation system using Raspberry Pi and
+              temperature, humidity, and soil sensors for environmental control.
+            </p>
+          </article>
+          <article class="project">
+            <p class="tag">Robotics</p>
+            <h3>TurtleBot Orchard Navigation</h3>
+            <p>
+              Worked on autonomous navigation for curved orchard paths and
+              contributed to camera and LiDAR-based fruit detection with YOLO.
             </p>
           </article>
         </div>
@@ -103,8 +113,8 @@
           <p class="section-kicker">CV</p>
           <h2 id="resume-title">Resume</h2>
           <p>
-            Download my CV for a fuller look at my experience, education, and
-            recent work.
+            My CV includes education, research experience, robotics projects,
+            mentoring activity, exchange study, skills, and certifications.
           </p>
           <a class="button secondary" href="assets/cv.pdf">Open CV PDF</a>
         </div>
@@ -112,26 +122,65 @@
         <dl class="resume-list">
           <div>
             <dt>Education</dt>
-            <dd>Seoul National University</dd>
+            <dd>
+              Seoul National University, Biosystem Engineering, College of
+              Agriculture and Life Sciences. Expected graduation: 2027.02.
+              GPA: 3.46 / 4.3.
+            </dd>
           </div>
           <div>
-            <dt>Skills</dt>
-            <dd>C++, Python, JavaScript, HTML, CSS</dd>
+            <dt>Second major</dt>
+            <dd>
+              System Semiconductor Engineering for AI, interdisciplinary major
+              at Seoul National University.
+            </dd>
+          </div>
+          <div>
+            <dt>Research</dt>
+            <dd>
+              Undergraduate Researcher at the Lab of Artificial Intelligence
+              and Big Data for Agriculture, SNU LABA, 2025.09-2026.06.
+            </dd>
           </div>
           <div>
             <dt>Experience</dt>
-            <dd>Course projects, web development practice, and collaboration.</dd>
+            <dd>
+              Exchange student at RWTH Aachen University in Germany, majoring
+              in electrical engineering, 2025.03-2025.09.
+            </dd>
+          </div>
+          <div>
+            <dt>Skills</dt>
+            <dd>Python, Java, C++ currently studying, Korean, and English.</dd>
+          </div>
+          <div>
+            <dt>Activities</dt>
+            <dd>
+              Vice President of the Department Student Council, peer mentor
+              for Applied Electrical and Electronic Engineering with Laboratory,
+              and peer mentor for Physics.
+            </dd>
+          </div>
+          <div>
+            <dt>Certifications</dt>
+            <dd>TOEIC Speaking 140 and TOEFL iBT 82 best score.</dd>
           </div>
         </dl>
       </section>
 
       <section class="section" id="courses" aria-labelledby="courses-title">
-        <p class="section-kicker">Planned courses</p>
-        <h2 id="courses-title">Courses I plan to take.</h2>
+        <p class="section-kicker">Courses</p>
+        <h2 id="courses-title">Relevant coursework and next interests.</h2>
         <ul class="course-list">
-          <li>Operating Systems</li>
-          <li>Machine Learning</li>
-          <li>Software Engineering</li>
+          <li>Fundamentals of Computer Science</li>
+          <li>Introduction to Computer Programming</li>
+          <li>Fundamentals of Data Structures</li>
+          <li>Computer Programming</li>
+          <li>Fundamentals of Machine Learning</li>
+          <li>Fundamentals of Deep Learning</li>
+          <li>Introduction to Embedded Systems</li>
+          <li>Next interest: Computer Vision</li>
+          <li>Next interest: Robotics and Agricultural AI</li>
         </ul>
       </section>
 
@@ -140,23 +189,23 @@
           <p class="section-kicker">Contact</p>
           <h2 id="contact-title">Let us connect.</h2>
           <p>
-            I am open to conversations about projects, coursework, and
-            collaboration.
+            I am open to conversations about research, coursework, robotics,
+            agricultural AI, and collaborative projects.
           </p>
         </div>
 
         <ul class="contact-list">
           <li>
             <span>Email</span>
-            <a href="mailto:your@snu.ac.kr">your@snu.ac.kr</a>
+            <a href="mailto:chltngus234@snu.ac.kr">chltngus234@snu.ac.kr</a>
           </li>
           <li>
             <span>GitHub</span>
-            <a href="https://github.com/your-github-username">github.com/your-github-username</a>
+            <a href="https://github.com/suhyun37">github.com/suhyun37</a>
           </li>
           <li>
-            <span>LinkedIn</span>
-            <a href="https://www.linkedin.com/">linkedin.com/in/your-profile</a>
+            <span>CV</span>
+            <a href="assets/cv.pdf">Download Suhyun Choi CV</a>
           </li>
         </ul>
       </section>
@@ -168,14 +217,17 @@
           <article class="project">
             <p class="tag">Tool</p>
             <h3>Codex</h3>
-            <p>Used to apply the uploaded design file to this personal website.</p>
+            <p>
+              Used to apply the uploaded design file, reduce the profile image
+              size, and revise the page using CV content.
+            </p>
           </article>
           <article class="project">
             <p class="tag">Prompt</p>
-            <h3>Design update</h3>
+            <h3>Profile update</h3>
             <p>
-              “I've uploaded DESIGN.md in this repo. Read this file and make
-              the webpage follow this theme.”
+              "Read my CV, reflect my information on the website, and adjust
+              the profile image size."
             </p>
           </article>
         </div>
@@ -183,7 +235,7 @@
     </main>
 
     <footer class="site-footer">
-      <p>Your Name</p>
+      <p>Suhyun Choi</p>
       <p>Personal website built with HTML and CSS.</p>
     </footer>
   </body>

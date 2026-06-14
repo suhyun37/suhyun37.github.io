@@ -127,10 +127,10 @@ a {
 
 .hero {
   width: 100%;
-  min-height: 560px;
-  padding: 80px max(24px, calc((100vw - var(--container)) / 2));
+  min-height: 500px;
+  padding: 64px max(24px, calc((100vw - var(--container)) / 2));
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(280px, 440px);
+  grid-template-columns: minmax(0, 1fr) minmax(220px, 300px);
   align-items: center;
   gap: 48px;
   background: var(--canvas);
@@ -219,8 +219,10 @@ h1 {
 
 .profile-card {
   position: relative;
+  justify-self: end;
+  width: min(100%, 280px);
   margin: 0;
-  padding: 24px;
+  padding: 16px;
   border: 1px solid var(--hairline);
   border-radius: var(--radius);
   background: var(--canvas);
@@ -284,7 +286,7 @@ h3 {
 
 .project-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 24px;
   margin-top: 32px;
 }
@@ -455,6 +457,11 @@ section.section.ai-usage {
     min-height: auto;
     padding-top: 56px;
     padding-bottom: 56px;
+  }
+
+  .profile-card {
+    justify-self: start;
+    width: min(100%, 260px);
   }
 
   h1 {
