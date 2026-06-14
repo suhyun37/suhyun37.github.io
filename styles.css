@@ -220,6 +220,7 @@ h1 {
 .profile-card {
   position: relative;
   justify-self: end;
+  --profile-image-height: 281px;
   width: min(100%, 187px);
   margin: 0;
   padding: 16px;
@@ -243,11 +244,12 @@ h1 {
 
 .profile-card img {
   width: 100%;
-  aspect-ratio: 2/3;
+  height: var(--profile-image-height);
+  aspect-ratio: 2 / 3;
   border: 1px solid var(--hairline-strong);
   border-radius: var(--radius);
   object-fit: cover;
-  object-position: ceter top;
+  object-position: center top;
 }
 
 .section {
@@ -494,6 +496,7 @@ section.section.ai-usage {
 
   .profile-card {
     justify-self: start;
+    --profile-image-height: 260px;
     width: min(100%, 173px);
   }
 
