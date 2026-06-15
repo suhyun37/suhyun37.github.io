@@ -219,14 +219,13 @@ h1 {
 
 .profile-card {
   position: relative;
-  justify-self: end;
-  --profile-image-height: 281px;
-  width: min(100%, 187px);
+  align-self: center;
+  justify-self: center;
+  width: min(100%, 200px);
   margin: 0;
-  padding: 16px;
-  border: 1px solid var(--hairline-strong);
-  border-radius: var(--radius);
-  background: var(--surface-elevated);
+  padding: 0;
+  border: 0;
+  background: transparent;
 }
 
 .profile-card::before,
@@ -244,12 +243,15 @@ h1 {
 
 .profile-card img {
   width: 100%;
-  height: var(--profile-image-height);
-  aspect-ratio: 2 / 3;
-  border: 1px solid var(--hairline-strong);
-  border-radius: var(--radius);
-  object-fit: cover;
-  object-position: center top;
+  height: auto;
+  border: 0;
+  border-radius: 0;
+  object-fit: contain;
+  object-position: center;
+}
+
+.profile-card::before {
+  display: none;
 }
 
 .section {
@@ -496,8 +498,7 @@ section.section.ai-usage {
 
   .profile-card {
     justify-self: start;
-    --profile-image-height: 260px;
-    width: min(100%, 173px);
+    width: min(100%, 180px);
   }
 
   h1 {
