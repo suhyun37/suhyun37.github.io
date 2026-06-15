@@ -270,7 +270,7 @@ h1 {
 
 .section > p,
 .section > h2 {
-  max-width: 820px;
+  max-width: none;
 }
 
 .keyword-list {
